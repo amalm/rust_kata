@@ -1,0 +1,6 @@
+[workspace]
+resolver = "2"
+
+members = [
+  "hello_world"
+, "hello_world_rest", "mocking", "unit_tests"]
