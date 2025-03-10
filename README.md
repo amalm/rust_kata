@@ -22,6 +22,13 @@ Learn Rust ecosystem, e.g. structure, modules, package management, testing.
 `cargo run`
 `curl http://localhost:3000/hello`
 
+### Hello World with gRPC API
+
+`cd hello_world_grpc`
+`cargo run --bin hello-world-grpc-server`
+
+In another terminal: `cargo run --bin hello-world-grpc-client`
+
 ### Unit Tests
 
 `cd unit_tests`
@@ -32,6 +39,13 @@ Learn Rust ecosystem, e.g. structure, modules, package management, testing.
 `cd mocking`
 `cargo test`
 
+## Tasks
+
+* Define a REST API for your choise of domain.
+* Implement the Rust backend for the REST API.
+* Define a gRPC API for your choise of domain. 
+* Implement the Rust backend for the gRPC API.
+* Adapt the Rust REST API backend to act as gateway to call the gRPC server.
 
 
 
