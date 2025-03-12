@@ -39,7 +39,15 @@ In another terminal: `cargo run --bin hello-world-grpc-client`
 `cd mocking`
 `cargo test`
 
-## Tasks
+## Goals for this Kata
+
+* Meet Cargo, the build tool for Rust.
+** `cargo build`, `cargo test`, `cargo clippy` (linting), `cargo fmt` (formatting).
+* How to use crates, i.e. add external dependencies in Rust.
+* Learn the basic syntax of Rust, e.g. traits (interfaces), structure conventions (src/main.rs, src/lib.rs).
+* Unit testing and mocking in Rust.
+
+## Suggestion for "task breakdown"
 
 * Define a REST API for your choise of domain.
 * Implement the Rust backend for the REST API.
