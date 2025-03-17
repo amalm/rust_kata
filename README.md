@@ -55,5 +55,9 @@ In another terminal: `cargo run --bin hello-world-grpc-client`
 * Implement the Rust backend for the gRPC API.
 * Adapt the Rust REST API backend to act as gateway to call the gRPC server.
 
+## Links
 
-
+* https://doc.rust-lang.org/book/title-page.html
+* https://microsoft.github.io/rust-for-dotnet-devs/latest/
+* https://theprimeagen.github.io/rust-for-typescript-devs/
+* https://github.com/andyrbell/rust-for-java-developers
