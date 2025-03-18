@@ -61,3 +61,4 @@ In another terminal: `cargo run --bin hello-world-grpc-client`
 * https://microsoft.github.io/rust-for-dotnet-devs/latest/
 * https://theprimeagen.github.io/rust-for-typescript-devs/
 * https://github.com/andyrbell/rust-for-java-developers
+* https://doc.rust-lang.org/rust-by-example/
